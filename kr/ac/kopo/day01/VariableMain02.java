@@ -4,33 +4,33 @@ public class VariableMain02 {
 	
 	public static void main(String[] args) {
 		
-		// "Hello"¶ó´Â ¹®ÀÚ¿­À» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö strÀ» ¼±¾ðÇÏÀÚ.
+		// "Hello"ë¼ëŠ” ë¬¸ìžì—´ì„ ì €ìž¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ strì„ ì„ ì–¸í•˜ìž.
 		
 //		String str;
 		
 //		str = "Hello";
 		
-		// ´Ù¸¥ ÀÚ·áÇü°ú ´Þ¸® ¹®ÀÚ¿­ ÀÚ·áÇüÀº Å¬·¡½º ÂüÁ¶ÀÚ·áÇüÀ¸·Î Á¤ÀÇÇÏ¹Ç·Î Ã¹±ÛÀÚ´Â ´ë¹®ÀÚ·Î Á¤ÀÇµÈ´Ù.
+		// ë‹¤ë¥¸ ìžë£Œí˜•ê³¼ ë‹¬ë¦¬ ë¬¸ìžì—´ ìžë£Œí˜•ì€ í´ëž˜ìŠ¤ ì°¸ì¡°ìžë£Œí˜•ìœ¼ë¡œ ì •ì˜í•˜ë¯€ë¡œ ì²«ê¸€ìžëŠ” ëŒ€ë¬¸ìžë¡œ ì •ì˜ëœë‹¤.
 		
 //		System.out.println(str);
 		
 		String str = new String("Hello");
 		
-		// String ÀÚ·áÇüÀº ÂüÁ¶ÀÚ·áÇüÀÌ¹Ç·Î º»ÁúÀûÀ¸·Î À§¿Í °°ÀÌ ¿ø·¡´Â Ç¥ÇöÇÏÁö¸¸ ¹®ÀÚ¿­ ÂüÁ¶ÀÚ·áÇüÀº ¿¹¿Ü·Î new·Î
-		// Á¤ÀÇÇÏÁö ¾Ê¾Æµµ µÈ´Ù.
+		// String ìžë£Œí˜•ì€ ì°¸ì¡°ìžë£Œí˜•ì´ë¯€ë¡œ ë³¸ì§ˆì ìœ¼ë¡œ ìœ„ì™€ ê°™ì´ ì›ëž˜ëŠ” í‘œí˜„í•˜ì§€ë§Œ ë¬¸ìžì—´ ì°¸ì¡°ìžë£Œí˜•ì€ ì˜ˆì™¸ë¡œ newë¡œ
+		// ì •ì˜í•˜ì§€ ì•Šì•„ë„ ëœë‹¤.
 		
-		// new String("Hello")¸¦ ÇÏ´Â ¼ø°£ ÂüÁ¶ ÀÚ·áÇüÀÌ¹Ç·Î heap ¿¡ ÀúÀå°ø°£À» »ý¼ºÇÑ´Ù. ±×¸®°í,
-		// String strÀ» ÇÏ´Â¼ø°£ ½ºÅÃ¿¡ º¯¼ö°¡ »ý¼ºµÇ°í, ÀÌ º¯¼ö´Â ½ºÅÃ¿¡ ÀúÀåµÇ°í ÀÌº¯¼ö´Â ½ÇÁ¦°ªÀ» ÀúÀåÇÏ°í ÀÖÁö´Â ¾ÊÁö¸¸,
-		// À§Ä¡°ªÀ» ÀúÀåÇÏ°í ÀÖ´Ù. ÀÌ À§Ä¡°ª¸¸À» ÀúÀåÇÏ°í ÀÖ´Â º¯¼ö strÀ» ÂüÁ¶ÇØ¼­ heap¿¡ ½ÇÁ¦°ªÀÌ ÀúÀåµÈ °ø°£¿¡ Á¢±ÙÇÒ ¼ö 
-		// ÀÖ´Â °ÍÀÌ´Ù. µû¶ó¼­, ½ºÅÃ¿¡ ÀúÀåµÈ str º¯¼ö´Â À§Ä¡°ªÀ» ÀúÀåÇÏ°í ÀÖ´Â º¯¼ö·Î¼­ heapÀÇ ½ÇÁ¦°ªÀ» Ã£¾Æ°¥ ¼ö ÀÖ°ÔÇÑ´Ù.
-		// µû¶ó¼­ strÀº ÂüÁ¶º¯¼ö¶ó°íÇÑ´Ù.
+		// new String("Hello")ë¥¼ í•˜ëŠ” ìˆœê°„ ì°¸ì¡° ìžë£Œí˜•ì´ë¯€ë¡œ heap ì— ì €ìž¥ê³µê°„ì„ ìƒì„±í•œë‹¤. ê·¸ë¦¬ê³ ,
+		// String strì„ í•˜ëŠ”ìˆœê°„ ìŠ¤íƒì— ë³€ìˆ˜ê°€ ìƒì„±ë˜ê³ , ì´ ë³€ìˆ˜ëŠ” ìŠ¤íƒì— ì €ìž¥ë˜ê³  ì´ë³€ìˆ˜ëŠ” ì‹¤ì œê°’ì„ ì €ìž¥í•˜ê³  ìžˆì§€ëŠ” ì•Šì§€ë§Œ,
+		// ìœ„ì¹˜ê°’ì„ ì €ìž¥í•˜ê³  ìžˆë‹¤. ì´ ìœ„ì¹˜ê°’ë§Œì„ ì €ìž¥í•˜ê³  ìžˆëŠ” ë³€ìˆ˜ strì„ ì°¸ì¡°í•´ì„œ heapì— ì‹¤ì œê°’ì´ ì €ìž¥ëœ ê³µê°„ì— ì ‘ê·¼í•  ìˆ˜ 
+		// ìžˆëŠ” ê²ƒì´ë‹¤. ë”°ë¼ì„œ, ìŠ¤íƒì— ì €ìž¥ëœ str ë³€ìˆ˜ëŠ” ìœ„ì¹˜ê°’ì„ ì €ìž¥í•˜ê³  ìžˆëŠ” ë³€ìˆ˜ë¡œì„œ heapì˜ ì‹¤ì œê°’ì„ ì°¾ì•„ê°ˆ ìˆ˜ ìžˆê²Œí•œë‹¤.
+		// ë”°ë¼ì„œ strì€ ì°¸ì¡°ë³€ìˆ˜ë¼ê³ í•œë‹¤.
 		
-		// ¹®ÀÚ¿­ º¯¼ö String¸¸ À¯ÀÏÇÏ°Ô ÂüÁ¶ ÀÚ·áÇüÀÓ¿¡µµ ºÎ·èÇÏ°í new ¾øÀÌ Á¤ÀÇÇÒ ¼ö ÀÖ´Ù. ÀÌ°ÍÀº ¾à¼ÓÀÌ´Ù. À¯ÀÏÇÑ¿¹¿ÜÀÌ´Ù.
+		// ë¬¸ìžì—´ ë³€ìˆ˜ Stringë§Œ ìœ ì¼í•˜ê²Œ ì°¸ì¡° ìžë£Œí˜•ìž„ì—ë„ ë¶€ë£©í•˜ê³  new ì—†ì´ ì •ì˜í•  ìˆ˜ ìžˆë‹¤. ì´ê²ƒì€ ì•½ì†ì´ë‹¤. ìœ ì¼í•œì˜ˆì™¸ì´ë‹¤.
 		
 		Test t = new Test();
 		System.out.println(t);
 				
-		// new ¸í·É¾î¸¦ ÅëÇØ Á¤ÀÇÇÑ °ÍÀº ¹«Á¶°Ç heap¿¡ ÀúÀåµÈ´Ù.
+		// new ëª…ë ¹ì–´ë¥¼ í†µí•´ ì •ì˜í•œ ê²ƒì€ ë¬´ì¡°ê±´ heapì— ì €ìž¥ëœë‹¤.
 		
 	}
 
