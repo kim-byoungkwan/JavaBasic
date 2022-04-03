@@ -8,9 +8,9 @@ public class assignment_num_4 {
 		
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		
-		System.out.println("³ª´­ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("ë‚˜ëˆŒ ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ");
 		
 		int num = sc.nextInt();
 		
@@ -20,12 +20,10 @@ public class assignment_num_4 {
 		
 		int residual = num % divider;
 		
-		System.out.printf("¸ò : %d\n", result);
+		System.out.printf("ëª« : %d\n", result);
 		
-		System.out.printf("³ª¸ÓÁö : %d ",residual);
+		System.out.printf("ë‚˜ë¨¸ì§€ : %d ",residual);
 				
 	}
 	
 }
-	
-	

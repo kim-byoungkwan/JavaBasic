@@ -8,13 +8,13 @@ public class assignment_num_3 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("¹İÁö¸§À» ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ë°˜ì§€ë¦„ì„ ì…ë ¥í•˜ì‹œì˜¤");
 		
 		int r = sc.nextInt();
 		
 		final double pi = 3.141592;
 		
-		System.out.printf("°á°úÃâ·Â : ¿øÀÇ ¸éÀûÀº %.4f ÀÔ´Ï´Ù", pi*r*r);
+		System.out.printf("ê²°ê³¼ì¶œë ¥ : ì›ì˜ ë©´ì ì€ %.4f ì…ë‹ˆë‹¤", pi*r*r);
 				
 	}
 	

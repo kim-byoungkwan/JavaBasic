@@ -8,7 +8,7 @@ public class assignment_num_2 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("½Ã°£À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("ì‹œê°„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		
 		int time = sc.nextInt();
 		
@@ -20,7 +20,7 @@ public class assignment_num_2 {
 		
 		int hours = minute % 60;
 		
-		System.out.printf("°á°úÃâ·Â : %d½Ã°£ %dºĞ %dÃÊ", hours, real_minute, seconds);
+		System.out.printf("ê²°ê³¼ì¶œë ¥ : %dì‹œê°„ %dë¶„ %dì´ˆ", hours, real_minute, seconds);
 
 	}
 	

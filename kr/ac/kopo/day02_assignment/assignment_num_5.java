@@ -8,13 +8,13 @@ public class assignment_num_5 {
 		
 		final double fixed_dollar = 1092.50;
 		
-		System.out.println("´Ş·¯¸¦ ÀÔ·ÂÇÏ¼¼¿ä ? ");
+		System.out.println("ë‹¬ëŸ¬ë¥¼ ì…ë ¥í•˜ì„¸ìš” ? ");
 		
 		Scanner sc = new Scanner(System.in);
 		
 		int putted_dollar = sc.nextInt();
 		
-		System.out.printf("¿øÈ­ : %.2f¿ø", fixed_dollar*putted_dollar);
+		System.out.printf("ì›í™” : %.2fì›", fixed_dollar*putted_dollar);
 		
 	}
 	

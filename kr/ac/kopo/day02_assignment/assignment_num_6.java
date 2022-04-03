@@ -10,7 +10,7 @@ public class assignment_num_6 {
 		
 		int num_second = (int)ch_second;
 		
-		System.out.printf("°³¼ö ? %d",2*(num_second - num_first +1));
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ ? %d",2*(num_second - num_first +1));
 		
 	}
 

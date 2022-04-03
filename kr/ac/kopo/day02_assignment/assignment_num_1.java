@@ -19,7 +19,7 @@ public class assignment_num_1 {
 					
 		System.out.println("----------------------");
 		
-		System.out.println("¿µ¹®ÀÚ ¸ğÀ½ÀÇ ¾Æ½ºÅ° ÄÚµå °ª");
+		System.out.println("ì˜ë¬¸ì ëª¨ìŒì˜ ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’");
 		
 		System.out.println("----------------------");		
 		System.out.printf("A = %d\n", num_1);
